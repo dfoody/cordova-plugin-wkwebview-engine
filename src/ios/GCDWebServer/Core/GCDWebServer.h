@@ -404,7 +404,7 @@ extern NSString* const GCDWebServerAuthenticationMethod_DigestAccess;
 @property(nonatomic, readonly) NSURL* publicServerURL;
 
 /**
- *  Starts the server on port 8080 (OS X & iOS Simulator) or port 80 (iOS)
+ *  Starts the server on port 8387 (OS X & iOS Simulator) or port 80 (iOS)
  *  using the default Bonjour name.
  *
  *  Returns NO if the server failed to start.

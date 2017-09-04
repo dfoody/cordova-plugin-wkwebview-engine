@@ -99,7 +99,7 @@ Required Permissions
 WKWebView may not fully launch (the deviceready event may not fire) unless if the following is included in config.xml:
 #### config.xml
 ```
-<allow-navigation href="http://localhost:8080/*"/>
+<allow-navigation href="http://ondevice.cloze.com:8387/*"/>
 <feature name="CDVWKWebViewEngine">
   <param name="ios-package" value="CDVWKWebViewEngine" />
 </feature>

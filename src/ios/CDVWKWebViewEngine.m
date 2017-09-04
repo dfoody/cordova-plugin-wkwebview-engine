@@ -25,7 +25,7 @@
 #import <objc/message.h>
 #import "GCDWebServer.h"
 
-#define CDV_LOCAL_SERVER @"http://localhost:8080"
+#define CDV_LOCAL_SERVER @"http://ondevice.cloze.com:8387"
 #define CDV_BRIDGE_NAME @"cordova"
 #define CDV_IONIC_STOP_SCROLL @"stopScroll"
 
@@ -67,7 +67,7 @@
         self.webServer = [[GCDWebServer alloc] init];
         [self.webServer addGETHandlerForBasePath:@"/" directoryPath:@"/" indexFilename:nil cacheAge:3600 allowRangeRequests:YES];
         NSDictionary *options = @{
-                                  GCDWebServerOption_Port: @(8080),
+                                  GCDWebServerOption_Port: @(8387),
                                   GCDWebServerOption_BindToLocalhost: @(YES),
                                   GCDWebServerOption_ServerName: @"Ionic"
                                   };
